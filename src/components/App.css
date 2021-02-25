@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto',sans-serif;
+}
+.main{
+    margin: 0 auto;
+    max-width: 600px;
+    min-height:  600px;
+    background: linear-gradient(to bottom,#FFB75E,#ED8F03);
+    padding: 15px;
+}
+.main_header{
+    text-align: center;
+    color: #fff;
+}
+.form_input{
+    margin-left: 10px;
+    border: none;
+    background: #fff;
+    border-radius: 6px;
+    padding: 9px;
+}
+.form_input:focus{
+    outline:none;
+}
+button{
+    border: none;
+    background: none;
+}
+.form_btn{
+    margin-left: 10px;
+}
+.form_select{
+    color: #ed7a0c;
+    border:none;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.form_select{
+    outline: none;
+    margin-left: 30px;
+}
+.todo_ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.todo_lists{
+    margin-top: 10px;
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+.todo_btn{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+.styled_btn{
+    text-decoration: line-through;
+   color: #00000060;
+}
